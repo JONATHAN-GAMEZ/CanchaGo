@@ -1,0 +1,106 @@
+/* ===============================
+   BODY & TEXT
+================================ */
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+}
+
+.text-muted {
+  color: var(--text-muted) !important;
+}
+
+/* ===============================
+   COLORS (BOOTSTRAP MAP)
+================================ */
+
+.bg-primary {
+  background-color: var(--brand-green) !important;
+}
+
+.bg-warning {
+  background-color: var(--brand-accent) !important;
+}
+
+/* ===============================
+   BORDER RADIUS
+================================ */
+
+.btn,
+.card,
+.form-control {
+  border-radius: var(--radius-md);
+}
+
+
+/* ===============================
+   BOTÓN PRIMARY – CANCHAGO
+================================ */
+
+.btn-primary {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: var(--brand-green);
+  --bs-btn-border-color: var(--brand-green);
+
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: #187a44;
+  --bs-btn-hover-border-color: #187a44;
+
+  --bs-btn-active-color: #ffffff;
+  --bs-btn-active-bg: #146c3a;
+  --bs-btn-active-border-color: #146c3a;
+
+  --bs-btn-focus-shadow-rgb: 30, 143, 80;
+}
+
+/* ===============================
+   OUTLINE PRIMARY
+================================ */
+
+.btn-outline-primary {
+  --bs-btn-color: var(--brand-green);
+  --bs-btn-border-color: var(--brand-green);
+
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-bg: var(--brand-green);
+  --bs-btn-hover-border-color: var(--brand-green);
+
+  --bs-btn-active-bg: #146c3a;
+  --bs-btn-active-border-color: #146c3a;
+
+  --bs-btn-focus-shadow-rgb: 30, 143, 80;
+}
+
+/* ===============================
+   WARNING (ACCENT)
+================================ */
+
+.btn-warning {
+  --bs-btn-color: #ffffff;
+  --bs-btn-bg: var(--brand-accent);
+  --bs-btn-border-color: var(--brand-accent);
+
+  --bs-btn-hover-bg: #e96a10;
+  --bs-btn-hover-border-color: #e96a10;
+
+  --bs-btn-active-bg: #cc5f0e;
+  --bs-btn-active-border-color: #cc5f0e;
+
+  --bs-btn-focus-shadow-rgb: 255, 122, 24;
+}
+
+.btn:disabled,
+.btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-lg {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+}
+
+.btn-sm {
+  padding: 0.35rem 0.75rem;
+}

@@ -1,0 +1,14 @@
+.card {
+  border: none;
+  box-shadow: var(--shadow-sm);
+  
+  
+}
+
+.cardImg {
+  width: 50%;
+  border-radius: 5%;
+  margin: 1.15% 25%
+
+ 
+}

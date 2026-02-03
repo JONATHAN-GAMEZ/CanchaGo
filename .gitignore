@@ -1,0 +1,33 @@
+# =====================
+# Frontend - React + Vite
+# =====================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# =====================
+# Backend - Spring Boot + Maven
+# =====================
+backend/target/
+backend/*.log
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/src/main/resources/application-local.properties
+
+# =====================
+# IDEs
+# =====================
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# =====================
+# Sistema Operativo
+# =====================
+.DS_Store
+Thumbs.db

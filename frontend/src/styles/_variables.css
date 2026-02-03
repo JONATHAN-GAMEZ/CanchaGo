@@ -1,0 +1,25 @@
+:root {
+  /* Brand */
+  --brand-green: #1E8F50;
+  --brand-accent: #FF7A18;
+
+  /* Backgrounds */
+  --bg-main: #F7F9FB;
+  --surface: #FFFFFF;
+
+  /* Text */
+  --text-primary: #1F2933;
+  --text-muted: #6B7280;
+
+  /* Feedback */
+  --danger: #E02424;
+  --success: #18B47A;
+
+  /* UI tokens */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --header-height: 73px;
+  --footer-height: 62px;
+}

@@ -1,0 +1,12 @@
+.categoryCard {
+  cursor: pointer;
+  border: none;
+  background: var(--surface);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.categoryCard:hover {
+  background: var(--brand-green);
+  color: white;
+}

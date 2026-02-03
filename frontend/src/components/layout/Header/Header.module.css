@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--surface);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header :global(.navbar-brand) {
+  color: var(--brand-green);
+  font-size: 1.25rem;
+}
+
+.header :global(.navbar-brand:hover) {
+  color: var(--brand-green);
+}
+

@@ -1,0 +1,33 @@
+html, body, #root {
+  height: 100%;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  padding-top: 88px;    /*altura del header */
+  padding-bottom: 60px;  /*altura del footer */
+  background-color: var(--bg-main);
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
